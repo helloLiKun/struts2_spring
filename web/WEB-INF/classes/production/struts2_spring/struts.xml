@@ -3,6 +3,13 @@
     "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
     "http://struts.apache.org/dtds/struts-2.3.dtd">
 <struts>
+	<!--&lt;!&ndash; 配置为开发模式 &ndash;&gt;-->
+	<!--<constant name="struts.devMode" value="true" />-->
+	<!--&lt;!&ndash; 把扩展名配置为action &ndash;&gt;-->
+	<!--<constant name="struts.action.extension" value="action" />-->
+	<!--&lt;!&ndash; 把主题配置为simple &ndash;&gt;-->
+	<!--<constant name="struts.ui.theme" value="simple" />-->
+
 	<package name="test"
 				namespace="/test"
 				extends="struts-default">

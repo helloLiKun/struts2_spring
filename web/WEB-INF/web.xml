@@ -5,7 +5,7 @@
   		  用于初始化Spring容器 -->
   <listener>
   		<listener-class>
-  			org.springframework.web.context.ContextLoaderListener
+			org.springframework.web.context.ContextLoaderListener
   		</listener-class>
   </listener>
   <!--配置Spring配置文件的位置  -->
