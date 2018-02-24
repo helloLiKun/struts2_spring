@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="spring-expression-4.1.9.RELEASE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-expression-4.1.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-web-3.0.5.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
