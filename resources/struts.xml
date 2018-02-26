@@ -33,7 +33,7 @@
         <action name="test3">
             <result type="redirect">
                 <param name="location">
-                    http://doc.tedu.cn
+                    https://www.baidu.com/
                 </param>
             </result>
         </action>
@@ -46,7 +46,7 @@
             </result>
             <!-- 重定向URL -->
             <result name="2" type="redirect">
-                http://doc.tedu.cn
+                https://www.baidu.com/
             </result>
             <!-- 重定向Action -->
             <result name="3" type="redirectAction">

@@ -8,6 +8,7 @@ import org.springframework.stereotype.Controller;
 public class JsonAction {
 	private int id;
 	private String message;
+	private String data;
 	public int getId() {
 		return id;
 	}
@@ -20,9 +21,19 @@ public class JsonAction {
 	public void setMessage(String message) {
 		this.message = message;
 	}
+
+	public String getData() {
+		return data;
+	}
+
+	public void setData(String data) {
+		this.data = data;
+	}
+
 	public String execute(){
 		id=100;
 		message="饿了吗？";
+		data="-------------data------------";
 		return "success";
 	}
 }

@@ -23,16 +23,13 @@ public class ImageAction {
 	}
 	public String execute() throws IOException{
 		//设置图片
-		BufferedImage img
-			=new BufferedImage(
-			100,60,BufferedImage.TYPE_3BYTE_BGR);
+		BufferedImage img=new BufferedImage(200,120,BufferedImage.TYPE_3BYTE_BGR);
 		//获取画笔
 		Graphics2D g= img.createGraphics();
 		g.setColor(Color.white);
-		g.drawString("Hello World!", 10, 30);
+		g.drawString("Hello World!", 20, 50);
 		//将图片转成字节数组
-		ByteArrayOutputStream out
-			=new ByteArrayOutputStream();
+		ByteArrayOutputStream out=new ByteArrayOutputStream();
 		ImageIO.write(img, "png", out);
 		out.close();
 		//将字节数组放到字节流中
